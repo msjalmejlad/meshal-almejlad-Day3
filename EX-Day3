@@ -1,0 +1,71 @@
+Ex1 :
+
+public class Main {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 100; i++) {
+            if (i % 2 == 0) {
+                System.out.println(i+" this number is positive");
+            }else {
+                System.out.println(i);
+            }
+        }
+    }
+}
+
+Ex2 : 
+
+public class Main {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 100; i++) {
+            if (i % 2 == 1) {
+                System.out.println(i);
+            }else {
+                continue;
+            }
+        }
+    }
+}
+
+Ex3 :
+
+public class Main {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 10; i++) {
+
+
+            if (i<4) {
+                System.out.println(i);
+            }else {
+                break;
+            }
+
+
+        }
+    }
+}
+
+Ex4 :
+
+public class Main {
+    public static void main(String[] args) {
+        String MyName = "meshal";
+        int len = MyName.length();
+        for (int i = 0; i<=len-1; i++) {
+            System.out.println(MyName.charAt(i));
+            continue;
+        }
+    }
+}
+
+Ex5 :
+
+public class Main {
+    public static void main(String[] args) {
+        String MyName = "meshal";
+        int len = MyName.length();
+        for (int i =len-1; i>=0; i--) {
+            System.out.println(MyName.charAt(i));
+            continue;
+        }
+    }
+}
